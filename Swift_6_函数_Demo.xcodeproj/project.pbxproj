@@ -38,15 +38,16 @@
 		D60A30571C2A322E0078BE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D60A30591C2A322E0078BE67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D60A305C1C2A322E0078BE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D60A305E1C2A322E0078BE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60A305E1C2A322E0078BE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		D60A30611C2A322E0078BE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D60A30631C2A322E0078BE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60A30631C2A322E0078BE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		D60A30681C2A322E0078BE67 /* Swift_6_函数_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift_6_函数_DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60A306C1C2A322E0078BE67 /* Swift_6____DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_6____DemoTests.swift"; sourceTree = "<group>"; };
 		D60A306E1C2A322E0078BE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60A30731C2A322E0078BE67 /* Swift_6_函数_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift_6_函数_DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60A30771C2A322E0078BE67 /* Swift_6____DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_6____DemoUITests.swift"; sourceTree = "<group>"; };
 		D60A30791C2A322E0078BE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60A30861C2A36DE0078BE67 /* ViewController.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ViewController.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +100,8 @@
 			children = (
 				D60A30571C2A322E0078BE67 /* AppDelegate.swift */,
 				D60A30591C2A322E0078BE67 /* ViewController.swift */,
-				D60A305B1C2A322E0078BE67 /* Main.storyboard */,
-				D60A305E1C2A322E0078BE67 /* Assets.xcassets */,
-				D60A30601C2A322E0078BE67 /* LaunchScreen.storyboard */,
-				D60A30631C2A322E0078BE67 /* Info.plist */,
+				D60A30861C2A36DE0078BE67 /* ViewController.playground */,
+				D60A30851C2A33380078BE67 /* System */,
 			);
 			path = "Swift_6_函数_Demo";
 			sourceTree = "<group>";
@@ -123,6 +122,17 @@
 				D60A30791C2A322E0078BE67 /* Info.plist */,
 			);
 			path = "Swift_6_函数_DemoUITests";
+			sourceTree = "<group>";
+		};
+		D60A30851C2A33380078BE67 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D60A305B1C2A322E0078BE67 /* Main.storyboard */,
+				D60A305E1C2A322E0078BE67 /* Assets.xcassets */,
+				D60A30601C2A322E0078BE67 /* LaunchScreen.storyboard */,
+				D60A30631C2A322E0078BE67 /* Info.plist */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +309,7 @@
 				D60A305C1C2A322E0078BE67 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D60A30601C2A322E0078BE67 /* LaunchScreen.storyboard */ = {
@@ -307,6 +318,7 @@
 				D60A30611C2A322E0078BE67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
